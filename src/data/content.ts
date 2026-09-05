@@ -4,7 +4,7 @@ export const heroContent = {
   titlePrefix: "za vaš",
   highlightedTitle: "svakodnevni prostor",
   description:
-    "Flawless1y je novi porodični biznis iz Beograda posvećen dubinskom pranju nameštaja, dušeka i enterijera automobila. Pogledajte usluge i cenovnik ili pošaljite fotografiju za procenu.",
+    "Novi porodični biznis iz Beograda posvećen dubinskom pranju nameštaja, dušeka i enterijera automobila. Pogledajte usluge i cenovnik ili pošaljite fotografiju za procenu.",
   primaryAction: "Pozovite nas",
   secondaryAction: "Pogledajte cenovnik",
   categories: ["Nameštaj", "Dušeci i kreveti", "Automobili"],
