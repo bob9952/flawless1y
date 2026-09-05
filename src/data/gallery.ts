@@ -14,10 +14,17 @@ export type GalleryImage = {
 // 2. Dodajte novi objekat u niz ispod. Komponentu galerije ne treba menjati.
 export const galleryImages: GalleryImage[] = [
   {
-    id: "svetli-trosed",
-    src: "images/flawless-hero.png",
-    alt: "Svetli trosed i dnevna soba",
-    title: "Tapacirani nameštaj",
+    id: "dubinsko-pranje-namestaja",
+    src: "images/gallery/pranje-namestaja.jpg",
+    alt: "Dubinsko pranje tapaciranog nameštaja ekstrakcionim uređajem",
+    title: "Dubinsko pranje nameštaja",
     category: "Nameštaj",
+  },
+  {
+    id: "dubinsko-pranje-duseka",
+    src: "images/gallery/pranje-duseka.jpg",
+    alt: "Čišćenje površine dušeka",
+    title: "Čišćenje dušeka",
+    category: "Dušeci",
   },
 ]

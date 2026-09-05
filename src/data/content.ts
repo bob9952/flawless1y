@@ -39,7 +39,7 @@ export const galleryContent = {
   title: "Pogledajte detalje",
   titleSecondLine: "izbliza.",
   description:
-    "Ovde će biti prikazani radovi po kategorijama. Dodavanje novih fotografija ne zahteva promenu izgleda stranice.",
+    "Pogledajte koje površine obuhvata ponuda. Fotografije stvarnih radova biće dodavane u galeriju kako posao bude rastao.",
   allCategoryLabel: "Sve",
   emptyMessage: "Fotografije za ovu kategoriju biće dodate uskoro.",
   openImageLabel: "Otvori fotografiju",
