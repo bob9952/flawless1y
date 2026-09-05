@@ -1,8 +1,8 @@
 export const contact = {
-  phoneDisplay: "060 123 45 67",
-  phoneHref: "+381601234567",
+  phoneDisplay: "+381 60 193 71 77",
+  phoneHref: "+381601937177",
   instagram: "@flawless1y.rs",
-  instagramHref: "#",
-  email: "zdravo@flawless1y.rs",
+  instagramHref: "https://www.instagram.com/flawless1y.rs?igsi=MWZhOGd2cm50MDJhcQ==",
+  email: "goran-dubinsko@flawless1y.rs",
   areaServed: "Beograd",
 }

@@ -17,7 +17,7 @@ export function Footer() {
               </a>
             ))}
           <a href={`mailto:${contact.email}`}>{contact.email}</a>
-          <a href={contact.instagramHref} className="flex items-center gap-1.5">
+          <a href={contact.instagramHref} target="_blank" rel="noreferrer" className="flex items-center gap-1.5">
             <Instagram size={16} />
             {contact.instagram}
           </a>

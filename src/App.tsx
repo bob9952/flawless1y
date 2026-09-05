@@ -2,6 +2,7 @@ import { FloatingCall } from "@/components/layout/floating-call"
 import { Footer } from "@/components/layout/footer"
 import { Header } from "@/components/layout/header"
 import { Contact } from "@/components/sections/contact"
+import { Faq } from "@/components/sections/faq"
 import { Gallery } from "@/components/sections/gallery"
 import { Hero } from "@/components/sections/hero"
 import { Pricing } from "@/components/sections/pricing"
@@ -22,6 +23,7 @@ export default function App() {
         <Gallery />
         <Pricing />
         <Process />
+        <Faq />
         <Contact />
       </main>
       <Footer />

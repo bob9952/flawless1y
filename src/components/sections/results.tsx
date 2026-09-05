@@ -26,7 +26,6 @@ export function Results() {
               </li>
             ))}
           </ul>
-          <p className="mt-6 text-xs text-ink/40">{content.note}</p>
         </div>
         <div className="relative mx-auto aspect-square w-full max-w-2xl overflow-hidden rounded-[2rem] border border-brand-navy/10 bg-white shadow-soft sm:aspect-[4/3]">
           <img

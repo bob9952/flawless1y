@@ -22,7 +22,7 @@ export function Contact() {
             </a>
           </Button>
           <Button asChild size="lg" className="bg-white text-ink hover:bg-white/90">
-            <a href={`viber://chat?number=${contact.phoneHref}`}>
+            <a href={`viber://chat?number=${encodeURIComponent(contact.phoneHref)}`}>
               <MessageCircle size={19} />
               {content.messageAction}
             </a>

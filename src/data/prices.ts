@@ -4,11 +4,6 @@ export type PriceGroup = {
   title: string
   subtitle: string
   items: PriceItem[]
-  introOverride?: {
-    title: string
-    titleSecondLine: string
-    description: string
-  }
 }
 
 export const priceGroups: PriceGroup[] = [
@@ -65,11 +60,5 @@ export const priceGroups: PriceGroup[] = [
     title: "Enterijer automobila",
     subtitle: "Cena zavisi od vozila i obima pranja",
     items: [{ name: "Dubinsko pranje enterijera vozila", price: "Po dogovoru" }],
-    introOverride: {
-      title: "Enterijer automobila.",
-      titleSecondLine: "Cena po dogovoru.",
-      description:
-        "Cena zavisi od veličine vozila i obima pranja. Pošaljite fotografiju enterijera kako biste dobili preciznu procenu.",
-    },
   },
 ]

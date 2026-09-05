@@ -1,5 +1,4 @@
 export const heroContent = {
-  badge: "Nameštaj, dušeci i automobili",
   title: "Dubinska čistoća",
   titlePrefix: "za vaš",
   highlightedTitle: "svakodnevni prostor",
@@ -30,7 +29,6 @@ export const resultsContent = {
     "Nameštaj, dušeci i enterijer vozila",
     "Procena prema fotografiji i dimenzijama",
   ],
-  note: "Fotografija predstavlja ilustrativni prikaz.",
   image: "images/flawless-hero.png",
 }
 
@@ -39,19 +37,28 @@ export const galleryContent = {
   title: "Pogledajte detalje",
   titleSecondLine: "izbliza.",
   description:
-    "Pogledajte koje površine obuhvata ponuda. Fotografije stvarnih radova biće dodavane u galeriju kako posao bude rastao.",
+    "Pogledajte fotografije po kategorijama. Kliknite na fotografiju da je uvećate i pregledate celu galeriju.",
   allCategoryLabel: "Sve",
   emptyMessage: "Fotografije za ovu kategoriju biće dodate uskoro.",
   openImageLabel: "Otvori fotografiju",
+  showMoreLabel: "Prikaži još",
+  showLessLabel: "Prikaži manje",
 }
 
 export const pricingContent = {
   eyebrow: "Cenovnik",
-  title: "Jasne cene.",
-  titleSecondLine: "Bez nagađanja.",
+  title: "Dubinsko pranje",
+  titleSecondLine: "cenovnik.",
   description:
-    "Izaberite kategoriju i pronađite cenu za komad koji želite da očistite. Za automobile i posebne zahteve, pošaljite fotografiju za procenu.",
+    "Pronađite okvirnu cenu po vrsti predmeta. Za automobile i posebne zahteve, pošaljite fotografiju kako biste dobili preciznu procenu.",
   action: "Zatražite procenu",
+}
+
+export const faqContent = {
+  eyebrow: "FAQ",
+  title: "Najčešća",
+  titleSecondLine: "pitanja.",
+  description: "Kratki odgovori na pitanja koja se najčešće javljaju pre zakazivanja dubinskog pranja.",
 }
 
 export const processContent = {

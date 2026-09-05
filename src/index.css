@@ -58,11 +58,6 @@ a {
   transform: rotate(-1.5deg);
   opacity: 0.8;
 }
-.logo-crop img {
-  width: 94px;
-  left: -25px;
-  top: -18px;
-}
 .service-card {
   transition:
     transform 0.3s ease,
