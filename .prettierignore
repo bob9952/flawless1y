@@ -1,0 +1,8 @@
+node_modules/
+dist/
+toplifikacija-toportal-develop/
+ui/
+public/
+cenovnik*.jpg
+logo.jpg
+package-lock.json

@@ -1,0 +1,89 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color: #06265c;
+  background: #fff;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+}
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 76px;
+}
+body {
+  margin: 0;
+  min-width: 320px;
+  font-family: "DM Sans", sans-serif;
+}
+* {
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+}
+button,
+a {
+  -webkit-tap-highlight-color: transparent;
+}
+
+@layer components {
+  .section-pad {
+    @apply py-24 lg:py-32;
+  }
+  .section-title {
+    @apply font-display text-4xl font-extrabold leading-[1.05] tracking-[-.05em] text-ink md:text-6xl;
+  }
+  .eyebrow {
+    @apply inline-flex rounded-full bg-brand-pale px-3.5 py-2 text-[11px] font-bold uppercase tracking-[.15em] text-brand-navy;
+  }
+}
+
+.hero-grid {
+  background-image:
+    linear-gradient(rgba(6, 38, 92, 0.035) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(6, 38, 92, 0.035) 1px, transparent 1px);
+  background-size: 52px 52px;
+  mask-image: linear-gradient(to right, black, transparent 55%);
+}
+.headline-stroke {
+  position: absolute;
+  left: 2%;
+  right: 0;
+  bottom: -9px;
+  height: 9px;
+  border-top: 4px solid #69b5ef;
+  border-radius: 50%;
+  transform: rotate(-1.5deg);
+  opacity: 0.8;
+}
+.logo-crop img {
+  width: 94px;
+  left: -25px;
+  top: -18px;
+}
+.service-card {
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease,
+    border-color 0.3s ease;
+}
+.service-card:hover {
+  transform: translateY(-7px);
+  border-color: rgba(105, 181, 239, 0.55);
+  box-shadow: 0 28px 75px -30px rgba(6, 38, 92, 0.32);
+}
+.comparison-range {
+  appearance: none;
+}
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *,
+  *::before,
+  *::after {
+    transition-duration: 0.01ms !important;
+  }
+}
