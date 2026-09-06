@@ -13,8 +13,8 @@ export const heroContent = {
 
 export const servicesContent = {
   eyebrow: "Ponuda usluga",
-  title: "Za dom.",
-  titleSecondLine: "I za automobil.",
+  title: "Za dom",
+  titleSecondLine: "I za automobil",
   description:
     "Ponuda obuhvata različite vrste tapaciranih površina. Za tačnu procenu dovoljno je da pošaljete fotografiju i dimenzije.",
 }
